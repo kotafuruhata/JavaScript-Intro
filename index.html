@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Notes</title>
+    </head>
+
+    <body>
+        <h2>Notes App</h2>
+        <input id="identify" type="text" placeholder="Type Here">
+        <button>Search</button><br><br>
+        
+        <div id="new"></div><br>
+        <button id="create-note">Create New Note</button>
+        <select id="filter-by">
+            <option value="byEdited">Sort by last edited</option>
+            <option value="byCreated">Sort by recently created</option>
+            <option value="alphabetically">Sort by alphabetically</option>
+        </select>
+        <script src="uuidv4.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment-with-locales.min.js"></script>
+        <script src="notes-functions.js"></script>
+        <script src="notes-app.js"></script>
+        
+    </body>
+
+</html>
